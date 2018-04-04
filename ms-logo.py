@@ -43,22 +43,6 @@ planeMapper.AddShaderReplacement(
     "//VTK::Normal::Impl", # replace the normal block
     True, # before the standard replacements
     "//VTK::Normal::Impl\n" # we still want the default
-    "  temp = normalMC;\n"
-    "  if(temp.x < 0)\n"
-    "  {\n"
-    "  temp.x = 1.0;\n"
-    "  temp.y = 1.0;\n"
-    "  }\n"
-    "  else if(temp.y < 0)\n"
-    "  {\n"
-    "  temp.y = 1.0;\n"
-    "  temp.z = 1.0;\n"
-    "  }\n"
-    "  else if(temp.z < 0)\n"
-    "  {\n"
-    "  temp.x = 1.0;\n"
-    "  temp.z = 1.0;\n"
-    "  }\n"
     "  myNormalMCVSOutput = vec3(gl_Position.x,gl_Position.y,0.0);\n", #but we add this
     False # only do it once
 )
