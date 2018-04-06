@@ -1,3 +1,11 @@
+'''
+Attempted to make a six colored cube. The idea is to take the normal of each face. If the normal is less than 0,
+we assign a combination of colors.
+WORKING.
+
+'''
+
+
 #!/usr/bin/env python
  
 # This simple example shows how to do basic rendering and pipeline

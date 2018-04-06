@@ -2,6 +2,12 @@
  
 # This simple example shows how to do basic rendering and pipeline
 # creation.
+
+'''
+Attempting to make Microsoft logo using only one sheet, i.e. four vertices.
+Not working as of now. Some problem with gl_Position
+
+'''
  
 import vtk
 # The colors module defines various useful colors.

@@ -2,6 +2,11 @@
  
 # This simple example shows how to do basic rendering and pipeline
 # creation.
+
+
+# Trying out gl_Position
+
+
  
 import vtk
 # The colors module defines various useful colors.
